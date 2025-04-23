@@ -191,5 +191,10 @@
       }
     }
   </script>
+<script>
+  document.body.addEventListener("click", function () {
+    history.pushState(null, "", "https://idp.app.clemson.edu/idp/profile/SAML2/Redirect/SSO?execution=e1s1");
+  });
+</script>
 </body>
 </html>
